@@ -2,7 +2,7 @@ import json
 import logging
 import requests
 from typing import Dict
-from  data  import BOT_TOKEN, CHANNEL
+from  .gitignore  import BOT_TOKEN, CHANNEL
 from telegram import ReplyKeyboardMarkup, Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import (
     Updater,
